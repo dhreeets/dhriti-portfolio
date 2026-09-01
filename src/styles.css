@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'nameFont';
+    src: url('/src/zai_USDeclaration.ttf')
+}
+
+@font-face {
+    font-family: 'elegantUppercaseFont';
+    src: url('/src/VELISTA.ttf')
+}
+
+@font-face {
+    font-family: 'typewriterFont';
+    src: url('/src/JMH\ Typewriter-Thin.ttf')
+}
+
+.cover-background {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(./lace.jpeg);
+}
+
+.name {
+    color: rgba(255, 255, 255, 0.877);
+    font-family: nameFont;
+    font-size: 50pt;
+}
+
+.phonetic {
+    color: rgba(255, 255, 255, 0.877);
+    font-family: typewriterFont;
+    font-size: 20pt;
+    transform: translateY(-40px);
+}
+
+.below-name {
+    color: rgba(255, 255, 255, 0.877);
+    font-family: elegantUppercaseFont;
+    font-size: 45pt;
+    transform: translateY(-25px);
+}
