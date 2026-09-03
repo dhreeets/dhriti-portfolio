@@ -1,16 +1,16 @@
 @font-face {
     font-family: 'nameFont';
-    src: url('/src/zai_USDeclaration.ttf')
+    src: url('/src/cursiveNameFont.ttf')
 }
 
 @font-face {
     font-family: 'elegantUppercaseFont';
-    src: url('/src/VELISTA.ttf')
+    src: url('/src/elegantUppercaseFont.ttf')
 }
 
 @font-face {
     font-family: 'typewriterFont';
-    src: url('/src/JMH\ Typewriter-Thin.ttf')
+    src: url('/src/typeWriterFont.ttf')
 }
 
 .cover-background {
@@ -23,12 +23,18 @@
 }
 
 .name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: rgba(255, 255, 255, 0.877);
     font-family: nameFont;
     font-size: 50pt;
 }
 
 .phonetic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: rgba(255, 255, 255, 0.877);
     font-family: typewriterFont;
     font-size: 20pt;
@@ -36,8 +42,21 @@
 }
 
 .below-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: rgba(255, 255, 255, 0.877);
     font-family: elegantUppercaseFont;
     font-size: 45pt;
     transform: translateY(-25px);
+}
+
+.email-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    color: rgba(255, 255, 255, 0.877);
+    font-size: 12pt;
+    transform: translateY(-90px);
 }
