@@ -28,7 +28,7 @@
     align-items: center;
     color: rgba(255, 255, 255, 0.877);
     font-family: nameFont;
-    font-size: 50pt;
+    font-size: 60pt;
 }
 
 .phonetic {
@@ -38,7 +38,7 @@
     color: rgba(255, 255, 255, 0.877);
     font-family: typewriterFont;
     font-size: 20pt;
-    transform: translateY(-40px);
+    transform: translateY(-50px);
 }
 
 .below-name {
@@ -47,8 +47,8 @@
     align-items: center;
     color: rgba(255, 255, 255, 0.877);
     font-family: elegantUppercaseFont;
-    font-size: 45pt;
-    transform: translateY(-25px);
+    font-size: 53pt;
+    transform: translateY(-30px);
 }
 
 .contact-info {
@@ -57,6 +57,6 @@
     align-items: center;
     gap: 7px;
     color: rgba(255, 255, 255, 0.877);
-    font-size: 12pt;
-    transform: translateY(-90px);
+    font-size: 14pt;
+    transform: translateY(-50px);
 }
