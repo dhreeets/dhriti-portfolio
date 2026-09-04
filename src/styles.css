@@ -26,7 +26,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: rgba(255, 255, 255, 0.877);
+    color: #FeF9F1;
     font-family: nameFont;
     font-size: 60pt;
 }
@@ -35,7 +35,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: rgba(255, 255, 255, 0.877);
+    color: #FeF9F1;
     font-family: typewriterFont;
     font-size: 20pt;
     transform: translateY(-50px);
@@ -45,7 +45,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: rgba(255, 255, 255, 0.877);
+    color: #FeF9F1;;
     font-family: elegantUppercaseFont;
     font-size: 53pt;
     transform: translateY(-30px);
@@ -56,7 +56,18 @@
     justify-content: center;
     align-items: center;
     gap: 7px;
-    color: rgba(255, 255, 255, 0.877);
+    color: #FeF9F1;;
     font-size: 14pt;
     transform: translateY(-50px);
+}
+
+.work-experience {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #FeF9F1;
+    color: #4D0011;
+    font-family: nameFont;
+    font-size: 45pt;
 }
