@@ -1,6 +1,7 @@
 import jpmcPostcard from './JpmcPostcard.png';
 import uniOfLivPostcard from './UniOfLivPostcard.png';
 import tutorDoctorPostcard from './TutorDoctorPostcard.png';
+import externPostcard from './ExternPostcard.png';
 
 function WorkExperience() {
     return (
@@ -22,6 +23,13 @@ function WorkExperience() {
                 <img
                     src={tutorDoctorPostcard}
                     alt="unable to load tutor doctor postcard"
+                    width="200px" 
+                    height="auto"
+                />
+
+                <img
+                    src={externPostcard}
+                    alt="unable to load extern postcard"
                     width="200px" 
                     height="auto"
                 />
