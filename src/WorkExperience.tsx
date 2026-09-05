@@ -2,11 +2,12 @@ import jpmcPostcard from './JpmcPostcard.png';
 import uniOfLivPostcard from './UniOfLivPostcard.png';
 import tutorDoctorPostcard from './TutorDoctorPostcard.png';
 import externPostcard from './ExternPostcard.png';
+import springpodPostcard from './SpringpodPostcard.png';
 
 function WorkExperience() {
     return (
         <div className="work-experience">Work Experience
-            <div className="images">
+            <div className="image-row">
                 <img 
                     src={jpmcPostcard} 
                     alt="unable to load jpmc postcard"
@@ -33,6 +34,14 @@ function WorkExperience() {
                     width="200px" 
                     height="auto"
                 />
+
+                <img
+                    src={springpodPostcard}
+                    alt="unable to load springpod postcard"
+                    width="200px" 
+                    height="auto"
+                />
+
             </div>
         </div>
     )
