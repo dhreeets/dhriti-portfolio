@@ -1,6 +1,6 @@
 import jpmcPostcard from './JpmcPostcard.png';
 import uniOfLivPostcard from './UniOfLivPostcard.png';
-import tutorDoctorPostcard from './TutorDoctorPostcode.png';
+import tutorDoctorPostcard from './TutorDoctorPostcard.png';
 
 function WorkExperience() {
     return (
