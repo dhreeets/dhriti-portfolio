@@ -92,9 +92,16 @@
     gap: 8px;
 }
 
-.work-experience .image-row .image-item span {
+.work-experience .image-row .image-item span:nth-child(2) {
     font-family: elegantUppercaseFont;
     font-size: 15pt;
     text-align: center;
-    min-height: 60px;
+    min-height: 55px;
+}
+
+.work-experience .image-row .image-item span:nth-child(3) {
+    font-family: typewriterFont;
+    font-size: 12pt;
+    text-align: center;
+    min-height: 30px;
 }

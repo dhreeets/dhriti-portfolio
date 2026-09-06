@@ -15,6 +15,7 @@ function WorkExperience() {
                     width="200px" 
                     height="auto"/>
                     <span>Software Engineering Industrial Placement</span>
+                    <span>June 2025 - June 2026</span>
                 </div>
                 
                 <div className="image-item">
@@ -24,7 +25,8 @@ function WorkExperience() {
                         width="200px" 
                         height="auto"
                     />
-                    <span>President, Girls in Coding</span>
+                    <span>President, Girls in Coding Society</span>
+                    <span>June 2024 - July 2025</span>
                 </div>
 
                 <div className="image-item">
@@ -35,6 +37,7 @@ function WorkExperience() {
                         height="auto"
                     />
                     <span>GCSE Maths Tutor</span>
+                    <span>March 2025 - June 2025</span>
                 </div>
 
                 <div className="image-item">
@@ -45,6 +48,7 @@ function WorkExperience() {
                         height="auto"
                     />
                     <span>AI Market Risk Research Externship</span>
+                    <span>August 2025</span>
                 </div>
 
                 <div className="image-item">
@@ -55,6 +59,7 @@ function WorkExperience() {
                         height="auto"
                     />
                     <span>Software Engineering Virtual Work Experience</span>
+                    <span>April 2022 - August 2022</span>
                 </div>
 
             </div>
