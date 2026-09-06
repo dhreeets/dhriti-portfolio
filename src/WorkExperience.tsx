@@ -31,7 +31,10 @@ function WorkExperience() {
                     alt="unable to display Uniof Liverpool Postcard"
                     role="President, Girls in Coding Society"
                     duration="Jun 2024 - Jul 2025"
-                    details={["test", "text for Uniof Liverpool placement"]}
+                    details={[
+                        "Elected as the society's 2nd President weeks after its inception, taking on foundational responsibility for building the society, and expanded membership from single digits to over 160 members, through targeted event organisation and outreach strategy.", 
+                        "Established partnerships with external organizations with aligned goals, organizing joint events and career development workshops for society members, forming the elementary connections for future committees.",
+                        "Led and delegated across a committee, coordinated task ownership to ensure timely execution of events and promotions, while managing communication across multiple stakeholder groups and balancing university workload."]}
                 />
 
                 <PostcardDetail
@@ -47,7 +50,10 @@ function WorkExperience() {
                     alt="unable to display Extern Postcard"
                     role="AI Risk Landscape Market Researcher"
                     duration="Aug 2024"
-                    details={["test", "text for Extern placement"]}
+                    details={[
+                        "Executed thorough secondary research to identify, analyse, and classify prevalent Al risks, especially relevant to enterprises. Also catalogued 2 such risks as per the Al risk framework classified by the National Research Group (NRG).", 
+                        "Formulated 2 in-depth, client-oriented case studies demonstrating potential business repercussions of specific Al risks.",
+                        "Delivered strategic insights and actionable recommendations to clients for addressing and mitigating Al risks through an informative, comprehensive and data heavy presentation."]}
                 />
             </div>
         </div>
