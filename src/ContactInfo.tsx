@@ -1,6 +1,6 @@
 import emailIcon from './assets/cover/laceEmailIcon.png';
 import phoneIcon from './assets/cover/lacePhoneIcon.png';
-import linkedInIcon from './assets/cover/laceLinkedInIcon.png';
+import linkedInIcon from './assets/cover/linkedInIcon.png';
 
 function ContactInfo() {
     return (
