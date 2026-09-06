@@ -9,7 +9,7 @@ function WorkExperience() {
         <div className="work-experience">
             Work Experience
             <div className="subtitle">
-                <span>Click on each post - card to learn more!</span>
+                <span>Click on each post / card to learn more!</span>
             </div>
             <div className="image-row">
                 <div className="image-item">
