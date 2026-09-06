@@ -3,6 +3,7 @@ import uniOfLivPostcard from './assets/postcards/UniOfLivPostcard.png';
 import tutorDoctorPostcard from './assets/postcards/TutorDoctorPostcard.png';
 import externPostcard from './assets/postcards/ExternPostcard.png';
 import springpodPostcard from './assets/postcards/SpringpodPostcard.png';
+import PostcardDetail from './PostcardDetail';
 
 function WorkExperience() {
     return (
@@ -12,60 +13,46 @@ function WorkExperience() {
                 <span>Click on each post / card to learn more!</span>
             </div>
             <div className="image-row">
-                <div className="image-item">
-                    <img 
-                    src={jpmcPostcard} 
-                    alt="unable to load jpmc postcard"
-                    width="200px" 
-                    height="auto"/>
-                    <span>Software Engineering Industrial Placement</span>
-                    <span>June 2025 - June 2026</span>
-                </div>
-                
-                <div className="image-item">
-                    <img
-                        src={uniOfLivPostcard}
-                        alt="unable to load uni of liv postcard"
-                        width="200px" 
-                        height="auto"
-                    />
-                    <span>President, Girls in Coding Society</span>
-                    <span>June 2024 - July 2025</span>
-                </div>
 
-                <div className="image-item">
-                    <img
-                        src={tutorDoctorPostcard}
-                        alt="unable to load tutor doctor postcard"
-                        width="200px" 
-                        height="auto"
-                    />
-                    <span>GCSE Maths Tutor</span>
-                    <span>March 2025 - June 2025</span>
-                </div>
+                <PostcardDetail
+                    src={jpmcPostcard}
+                    alt="unable to display JPMC Postcard"
+                    role="Software Engineering Industrial Placement"
+                    duration="Jun 2025 - Jun 2026"
+                    details="test text for JPMC placement"
+                />
 
-                <div className="image-item">
-                    <img
-                        src={externPostcard}
-                        alt="unable to load extern postcard"
-                        width="200px" 
-                        height="auto"
-                    />
-                    <span>AI Market Risk Research Externship</span>
-                    <span>August 2025</span>
-                </div>
+                <PostcardDetail
+                    src={uniOfLivPostcard}
+                    alt="unable to display Uniof Liverpool Postcard"
+                    role="President, Girls in Coding Society"
+                    duration="Jun 2024 - Jul 2025"
+                    details="test text for Uniof Liverpool placement"
+                />
 
-                <div className="image-item">
-                    <img
-                        src={springpodPostcard}
-                        alt="unable to load springpod postcard"
-                        width="200px" 
-                        height="auto"
-                    />
-                    <span>Software Engineering Virtual Work Experience</span>
-                    <span>April 2022 - August 2022</span>
-                </div>
+                <PostcardDetail
+                    src={tutorDoctorPostcard}
+                    alt="unable to display Tutor Doctor Postcard"
+                    role="GCSE Maths Tutor"
+                    duration="Mar 2025 - Jun 2025"
+                    details="test text for Tutor Doctor placement"
+                />
 
+                <PostcardDetail
+                    src={externPostcard}
+                    alt="unable to display Extern Postcard"
+                    role="AI Risk Landscape Market Researcher"
+                    duration="Aug 2024"
+                    details="test text for Extern placement"
+                />
+
+                <PostcardDetail
+                    src={springpodPostcard}
+                    alt="unable to display Springpod Postcard"
+                    role="Software Development Virtual Work Experience"
+                    duration="Apr 2022 - Aug 2022"
+                    details="test text for Springpod "
+                />
             </div>
         </div>
     )

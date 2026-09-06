@@ -100,6 +100,7 @@
     align-items: center; 
     justify-self: center; 
     gap: 8px;
+    cursor: pointer;
 }
 
 .work-experience .image-row .image-item span:nth-child(2) {
@@ -114,4 +115,10 @@
     font-size: 12pt;
     text-align: center;
     min-height: 30px;
+}
+
+.work-experience .image-row .image-item span:nth-child(4) {
+    font-family: Georgia;
+    font-size: 12pt;
+    text-align: center;
 }
