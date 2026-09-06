@@ -73,6 +73,16 @@
     font-size: 45pt;
 }
 
+.work-experience .subtitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: typewriterFont;
+    font-size: 15pt;
+    color: #4D0011;
+    transform: translateY(-40px);
+}
+
 .work-experience .image-row {
     display: grid;
     grid-template-columns: repeat(5, 1fr); 

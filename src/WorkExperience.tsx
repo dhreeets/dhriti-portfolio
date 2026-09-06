@@ -6,7 +6,11 @@ import springpodPostcard from './assets/postcards/SpringpodPostcard.png';
 
 function WorkExperience() {
     return (
-        <div className="work-experience">Work Experience
+        <div className="work-experience">
+            Work Experience
+            <div className="subtitle">
+                <span>Click on each post - card to learn more!</span>
+            </div>
             <div className="image-row">
                 <div className="image-item">
                     <img 
