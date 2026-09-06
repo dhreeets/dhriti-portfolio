@@ -1,16 +1,16 @@
 @font-face {
     font-family: 'nameFont';
-    src: url('/src/cursiveNameFont.ttf')
+    src: url('/src/fonts/cursiveNameFont.ttf')
 }
 
 @font-face {
     font-family: 'elegantUppercaseFont';
-    src: url('/src/elegantUppercaseFont.ttf')
+    src: url('/src/fonts/elegantUppercaseFont.ttf')
 }
 
 @font-face {
     font-family: 'typewriterFont';
-    src: url('/src/typeWriterFont.ttf')
+    src: url('/src/fonts/typewriterFont.ttf')
 }
 
 .cover-background {
