@@ -85,10 +85,10 @@
 
 .work-experience .image-row {
     display: grid;
-    grid-template-columns: repeat(5, 1fr); 
+    grid-template-columns: repeat(4, 1fr); 
     align-items: center;
-    width: 1200px;
-    gap: 1px;
+    width: 1350px;
+    gap: 20px;
     font-family: elegantUppercaseFont;
     font-size: 15pt;
     flex-direction: column;
@@ -107,7 +107,7 @@
     font-family: elegantUppercaseFont;
     font-size: 15pt;
     text-align: center;
-    min-height: 55px;
+    min-height: 40px;
 }
 
 .work-experience .image-row .image-item span:nth-child(3) {
@@ -117,8 +117,8 @@
     min-height: 30px;
 }
 
-.work-experience .image-row .image-item span:nth-child(4) {
+.work-experience .image-row .image-item ul:nth-child(4) {
     font-family: Georgia;
     font-size: 12pt;
-    text-align: center;
+    transform: translateY(-20px);
 }

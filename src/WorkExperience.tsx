@@ -2,7 +2,6 @@ import jpmcPostcard from './assets/postcards/JpmcPostcard.png';
 import uniOfLivPostcard from './assets/postcards/UniOfLivPostcard.png';
 import tutorDoctorPostcard from './assets/postcards/TutorDoctorPostcard.png';
 import externPostcard from './assets/postcards/ExternPostcard.png';
-import springpodPostcard from './assets/postcards/SpringpodPostcard.png';
 import PostcardDetail from './PostcardDetail';
 
 function WorkExperience() {
@@ -19,7 +18,12 @@ function WorkExperience() {
                     alt="unable to display JPMC Postcard"
                     role="Software Engineering Industrial Placement"
                     duration="Jun 2025 - Jun 2026"
-                    details="test text for JPMC placement"
+                    details={[
+                        "Delivered full-stack features on a green-field application, building reactive backend services in Java/Spring Boot (WebFlux) for REST APIs, paired with React on the front end.",
+                        "Designed and implemented relational data structures using Model Driven Development, integrating Oracle databases, and managing schema changes with Liquibase.",
+                        "Operated across the full SDLC in a Jenkins-driven CI/CD pipeline, strengthening application resiliency through rigorous validation testing and identifying then implementing performance optimizations.",
+                        "Delivered features in an Al-augmented Agile team, building out a complete Cucumber framework independently to drive Behaviour Driven Development and improve test coverage."
+                    ]}
                 />
 
                 <PostcardDetail
@@ -27,7 +31,7 @@ function WorkExperience() {
                     alt="unable to display Uniof Liverpool Postcard"
                     role="President, Girls in Coding Society"
                     duration="Jun 2024 - Jul 2025"
-                    details="test text for Uniof Liverpool placement"
+                    details={["test", "text for Uniof Liverpool placement"]}
                 />
 
                 <PostcardDetail
@@ -35,7 +39,7 @@ function WorkExperience() {
                     alt="unable to display Tutor Doctor Postcard"
                     role="GCSE Maths Tutor"
                     duration="Mar 2025 - Jun 2025"
-                    details="test text for Tutor Doctor placement"
+                    details={["test", "text for Tutor Doctor placement"]}
                 />
 
                 <PostcardDetail
@@ -43,15 +47,7 @@ function WorkExperience() {
                     alt="unable to display Extern Postcard"
                     role="AI Risk Landscape Market Researcher"
                     duration="Aug 2024"
-                    details="test text for Extern placement"
-                />
-
-                <PostcardDetail
-                    src={springpodPostcard}
-                    alt="unable to display Springpod Postcard"
-                    role="Software Development Virtual Work Experience"
-                    duration="Apr 2022 - Aug 2022"
-                    details="test text for Springpod "
+                    details={["test", "text for Extern placement"]}
                 />
             </div>
         </div>

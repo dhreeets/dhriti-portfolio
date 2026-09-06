@@ -5,7 +5,7 @@ type PostcardDetailProps = {
     alt: string;
     role: string;
     duration: string;
-    details: string;
+    details: string[];
 };
 
 export default function PostcardDetail({ src, alt, role, duration, details }: PostcardDetailProps) {
@@ -22,7 +22,12 @@ export default function PostcardDetail({ src, alt, role, duration, details }: Po
             />
             <span>{role}</span>
             <span>{duration}</span>
-            {showDetails && <span>{details}</span>}
+            {showDetails && (
+                <ul>{details.map((point, i) => (
+                    <li key={i}>{point}</li>
+                ))}
+                </ul>
+                )}
         </div>
     );
 }
