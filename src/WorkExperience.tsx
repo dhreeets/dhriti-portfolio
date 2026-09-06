@@ -1,8 +1,8 @@
-import jpmcPostcard from './JpmcPostcard.png';
-import uniOfLivPostcard from './UniOfLivPostcard.png';
-import tutorDoctorPostcard from './TutorDoctorPostcard.png';
-import externPostcard from './ExternPostcard.png';
-import springpodPostcard from './SpringpodPostcard.png';
+import jpmcPostcard from './assets/postcards/JpmcPostcard.png';
+import uniOfLivPostcard from './assets/postcards/UniOfLivPostcard.png';
+import tutorDoctorPostcard from './assets/postcards/TutorDoctorPostcard.png';
+import externPostcard from './assets/postcards/ExternPostcard.png';
+import springpodPostcard from './assets/postcards/SpringpodPostcard.png';
 
 function WorkExperience() {
     return (
