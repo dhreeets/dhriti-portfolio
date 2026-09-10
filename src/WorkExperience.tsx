@@ -42,7 +42,8 @@ function WorkExperience() {
                     alt="unable to display Tutor Doctor Postcard"
                     role="GCSE Maths Tutor"
                     duration="Mar 2025 - Jun 2025"
-                    details={["test", "text for Tutor Doctor placement"]}
+                    details={[
+                        "Designed and delivered structured and personalized lesson plans for a GCSE student, resulting in the achievement of their dream grade in the final Mathematics GCSE exam."]}
                 />
 
                 <PostcardDetail

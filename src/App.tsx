@@ -9,7 +9,7 @@ function App() {
         <div className = "name">Dhriti Sharma</div>
         <div className = "phonetic">/dhree-tih/shur-mah/</div>
         <div className = "below-name">Personal Portfolio</div>
-        </section>
+      </section>
         <WorkExperience/>
     </div>
   )
