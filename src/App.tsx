@@ -1,5 +1,6 @@
 import ContactInfo from "./ContactInfo"
 import WorkExperience from "./WorkExperience"
+import Education from "./Education"
 
 function App() {
   return(
@@ -11,6 +12,7 @@ function App() {
         <div className = "below-name">Personal Portfolio</div>
       </section>
         <WorkExperience/>
+        <Education/>
     </div>
   )
 }

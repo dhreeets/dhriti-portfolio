@@ -13,6 +13,16 @@
     src: url('/src/fonts/typewriterFont.ttf')
 }
 
+@font-face {
+    font-family: 'elegantSerifFont';
+    src: url('/src/fonts/elegantSerifFont.otf')
+}
+
+@font-face {
+    font-family: 'calligraphyFont';
+    src: url('./fonts/calligraphyFont.ttf')
+}
+
 .cover-background {
     display: flex;
     flex-direction: column;
@@ -122,3 +132,62 @@
     font-size: 12pt;
     transform: translateY(-20px);
 }
+
+.education {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #7C4D62;
+    color: #B9C8E5;
+    font-family: elegantUppercaseFont;
+    font-size: 60pt;
+}
+
+.education .city-name-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    align-items: center;
+    width: 1350px;
+    gap: 20px;
+    font-family: nameFont;
+    font-size: 20pt;
+    flex-direction: column;
+}
+
+.education .city-name-row .image-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-self: center; 
+    gap: 8px;
+    cursor: pointer;
+    font-family: nameFont;
+}
+
+.education .city-name-row .image-item span:nth-child(3) {
+    font-family: elegantSerifFont;
+    font-size: 20pt;
+    text-align: center;
+    min-height: 30px;
+}
+
+.education .city-name-row .image-item span:nth-child(4) {
+    font-family: Georgia;
+    text-align: center;
+    font-size: 12pt;
+}
+
+.education .city-name-row .image-item span:nth-child(5) {
+    font-family: Georgia;
+    text-align: center;
+    font-size: 12pt;
+}
+
+.education .city-name-row .image-item span:nth-child(6) {
+    font-family: Georgia;
+    text-align: center;
+    font-size: 12pt;
+}
+
