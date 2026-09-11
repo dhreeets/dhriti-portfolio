@@ -15,7 +15,9 @@ function Education() {
                     duration='Sep 2023 - Jul 2027'
                     institution='University of Liverpool'
                     qualification='BSc (Hons)'
-                    details={["Computer Science w Year in Industry"]}
+                    subjects="Computer Science w Year in Industry"
+                    details={[
+                        "peer mentor"]}
                 />
 
                 <EducationDetail
@@ -25,7 +27,10 @@ function Education() {
                     duration='Sep 2021 - Jul 2023'
                     institution='Hymers College'
                     qualification='A Levels'
-                    details={["Computer Science, Mathematics, Physics"]}
+                    subjects='Computer Science, Mathematics, Physics'
+                    details={[
+                        "academic distinction, computer science",
+                        "form prefect"]}
                 />
 
                 <EducationDetail
@@ -35,7 +40,8 @@ function Education() {
                     duration='Mar 2008 - Jul 2021'
                     institution='The Heritage School'
                     qualification='GCSE Equivalent: Grade 10 Board Exam'
-                    details={["Science, Mathematics, Social Studies, English, French"]}
+                    subjects='Science, Mathematics, Social Studies, English, French'
+                    details={[]}
                 />
             </div>
         </div>

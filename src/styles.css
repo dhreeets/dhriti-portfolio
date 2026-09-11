@@ -162,24 +162,24 @@
     align-items: center; 
     justify-self: center; 
     gap: 8px;
-    min-height: 485px;
+    min-height: 600px;
     cursor: pointer;
     font-family: elegantUppercaseFont;
-    transform: translateY(-15px);
+    /* transform: translateY(-15px); */
 }
 
 .education .city-name-row .image-item span:nth-child(3) {
     font-family: calligraphyFont;
     font-size: 40pt;
     text-align: center;
-    transform: translateY(-5px);
+    /* transform: translateY(-5px); */
 }
 
 .education .city-name-row .image-item span:nth-child(4) {
     font-family: elegantSerifFont;
     text-align: center;
     font-size: 18pt;    
-    transform: translateY(-10px);
+    /* transform: translateY(-10px); */
 
 }
 
@@ -187,15 +187,25 @@
     font-family: elegantUppercaseFont;
     text-align: center;
     font-size: 15pt;
-    transform: translateY(-10px);
+    /* transform: translateY(-10px); */
 }
 
 .education .city-name-row .image-item span:nth-child(6) {
     font-family: Georgia;
     text-align: center;
     font-size: 15pt;
-    transform: translateY(-10px);
+    /* transform: translateY(-10px); */
 }
+
+.education .city-name-row .image-item ul:nth-child(7) {
+    font-family: calligraphyFont;
+    list-style: none;
+    font-size: 28pt;
+    text-align: left;
+    transform: translateY(-40px);
+    line-height: 0.75;
+}
+
 
 
 
