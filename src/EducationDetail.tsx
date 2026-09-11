@@ -21,8 +21,8 @@ export default function EducationDetail({ src, alt, city, institution, qualifica
             />
             <span>{institution}</span>
             <span>{qualification}</span>
-            <span>{duration}</span>
             <span>{details}</span>
+            <span>{duration}</span>
         </div>
     )
 }

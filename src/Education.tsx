@@ -14,8 +14,8 @@ function Education() {
                     city='Liverpool'
                     duration='Sep 2023 - Jul 2027'
                     institution='University of Liverpool'
-                    qualification='BSc (Hons) Computer Science w Year in Industry'
-                    details={["test"]}
+                    qualification='BSc (Hons)'
+                    details={["Computer Science w Year in Industry"]}
                 />
 
                 <EducationDetail
@@ -24,18 +24,18 @@ function Education() {
                     city='Hull'
                     duration='Sep 2021 - Jul 2023'
                     institution='Hymers College'
-                    qualification='A Levels: Computer Science, Mathematics, Physics'
-                    details={["test"]}
+                    qualification='A Levels'
+                    details={["Computer Science, Mathematics, Physics"]}
                 />
 
                 <EducationDetail
                     src={heritageBuilding}
                     alt="unable to display Heritage building"
-                    city='New Delhi'
+                    city='New Delhi, India'
                     duration='Mar 2008 - Jul 2021'
-                    institution='The Heritage School, Rohini'
-                    qualification='GCSE Equivalent: All India Secondary School Examination (AISSE)'
-                    details={["test"]}
+                    institution='The Heritage School'
+                    qualification='GCSE Equivalent: Grade 10 Board Exam'
+                    details={["Science, Mathematics, Social Studies, English, French"]}
                 />
             </div>
         </div>
