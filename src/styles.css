@@ -150,7 +150,7 @@
     grid-template-columns: repeat(3, 1fr); 
     align-items: center;
     width: 1350px;
-    gap: 10px;
+    gap: 40px;
     font-family: elegantUppercaseFont;
     font-size: 25pt;
     flex-direction: column;
@@ -162,7 +162,7 @@
     align-items: center; 
     justify-self: center; 
     gap: 8px;
-    min-height: 600px;
+    min-height: 650px;
     cursor: pointer;
     font-family: elegantUppercaseFont;
     /* transform: translateY(-15px); */
@@ -199,11 +199,20 @@
 
 .education .city-name-row .image-item ul:nth-child(7) {
     font-family: calligraphyFont;
-    list-style: none;
+    list-style: square;
     font-size: 28pt;
     text-align: left;
-    transform: translateY(-40px);
-    line-height: 0.75;
+    transform: translateY(-15px);
+    line-height: 0.6;
+    transform: translateY(-30px);
+}
+
+.education .city-name-row .image-item ul:nth-child(7) li::marker {
+    font-size: 10pt
+}
+
+.education .city-name-row .image-item ul:nth-child(7) li {
+    margin-bottom: 10pt;
 }
 
 

@@ -16,7 +16,7 @@ export default function EducationDetail({ src, alt, city, institution, qualifica
             <img
                 src={src}
                 alt={alt}
-                width="200px"
+                width="170px"
                 height="auto"
             />
             <span>{institution}</span>

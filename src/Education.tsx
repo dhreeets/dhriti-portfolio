@@ -17,7 +17,8 @@ function Education() {
                     qualification='BSc (Hons)'
                     subjects="Computer Science w Year in Industry"
                     details={[
-                        "peer mentor"]}
+                        "teaching assistant for database development module",
+                        "peer mentor for computer science department"]}
                 />
 
                 <EducationDetail
@@ -29,7 +30,7 @@ function Education() {
                     qualification='A Levels'
                     subjects='Computer Science, Mathematics, Physics'
                     details={[
-                        "academic distinction, computer science",
+                        "academic distinction in computer science year 12 examination",
                         "form prefect"]}
                 />
 
@@ -39,9 +40,12 @@ function Education() {
                     city='New Delhi, India'
                     duration='Mar 2008 - Jul 2021'
                     institution='The Heritage School'
-                    qualification='GCSE Equivalent: Grade 10 Board Exam'
+                    qualification='GCSE Equivalent Grade 10 Board Exam'
                     subjects='Science, Mathematics, Social Studies, English, French'
-                    details={[]}
+                    details={[
+                        "member of school hockey and playball teams, and school choir",
+                        "won multiple inter-school art competitions"
+                    ]}
                 />
             </div>
         </div>
